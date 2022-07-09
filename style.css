@@ -4,23 +4,70 @@
     box-sizing: border-box;
 }
 
-/* general styles */
-body {
-    height: 100vh;
-    width: 100vw;
-    font size: 1rem;
-    font-family: '';
-    background-color:;
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --very-Pale-blue: hsl(225, 100%, 98%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --border-radius1:10%;
+    --border-radius2:15%;
+    --border-radius3:100%;
+    --border-style:none;
 }
 
-main{
-    height: 85vh;
-    width: 98vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-@media screen and (min-width:725px) {
+/* desktop view */
+@media screen and (min-width:730px) {
+    /* general styles */
+    body {
+        height: 100vh;
+        width: 100vw;
+        font size: 1rem;
+        font-family: 'Red Hat Display';
+        background-image:url(/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-color:var(--pale-blue);
+        background-size:100vw 50vh;  
+    }
     
+    main{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* card container styles*/
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        border-radius: var(--border-radius1);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* mobile view */
+@media screen and (max-width:725px) {
+    /* general styles */
+    body {
+        height: 100vh;
+        width: 100vw;
+        font size: 1rem;
+        font-family: 'Red Hat Display';
+        background-image:url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color:var(--pale-blue);
+        background-size:100vw 50vh;  
+    }
+    
+    main{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
