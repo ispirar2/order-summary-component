@@ -172,16 +172,117 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: auto;
+        transform: translate(-2%, -10%);
     }
 
     /* card container styles*/
     .container {
         display: flex;
         flex-direction: column;
-        width: 300px;
-        border-radius: var(--border-radius1);
-        justify-content: center;
         align-items: center;
+        height: 525px;
+        width: 350px;
         background-color: var(--white);
+        border-radius: var(--border-radius1);
+
+    }
+
+    .card-img img {
+        width: 350px;
+        border-radius: var(--border-radius4);
+    }
+
+    .header {
+        font-size: 1.3rem;
+        font-weight: 900;
+        text-align: center;
+        transform: translate(0, 10px);
+    }
+
+    .description {
+        width: 25ch;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--desaturated-blue);
+        text-align: center;
+        transform: translate(0, 10px);
+    }
+
+    .order-summery {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 15px;
+        width: 320px;
+        height: 70px;
+        border-radius: var(--border-radius2);
+        background-color: var(--very-pale-blue);
+        transform: translate(0, 10px);
+    }
+
+    .order-summery img {
+        width: 40px;
+        transform: translate(15px, 0);
+    }
+
+    .order-summery ul {
+        list-style: none;
+        height: 30px;
+        padding-left: 0;
+        margin: 0;
+        transform: translate(15px, -2px);
+    }
+
+    .order-summery ul li {
+        color: var(--desaturated-blue);
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .order-summery ul span {
+        color: var(--black);
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+
+    .order-summery a {
+        font-size: 0.8rem;
+        font-weight: 600;
+        transform: translate(200%, -2px);
+
+    }
+
+    .proceed-to-pay {
+        background-color: var(--bright-blue);
+        width: 320px;
+        height: 40px;
+        border-radius: var(--border-radius2);
+        border-style: none;
+        cursor: pointer;
+        box-shadow:;
+        transform: translate(0, 30px);
+    }
+
+    .proceed-to-pay a {
+        color: var(--very-pale-blue);
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 700;
+
+    }
+    .cancel-order {
+        color: var(--desaturated-blue);
+        font-weight: 800;
+        font-size: 0.8rem;
+        text-decoration: none;
+        transform: translate(0, 50px);
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 25ch;
+        text-align: center;
     }
 }
