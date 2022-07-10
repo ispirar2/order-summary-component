@@ -125,17 +125,12 @@
         height: 40px;
         border-radius: var(--border-radius2);
         border-style: none;
+        color: var(--very-pale-blue);
+        font-size: 0.8rem;
+        font-weight: 700;
         cursor: pointer;
         box-shadow: 0 10px var(--very-pale-blue);
         transform: translate(0, 30px);
-    }
-
-    .proceed-to-pay a {
-        color: var(--very-pale-blue);
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-weight: 700;
-
     }
     .cancel-order {
         color: var(--desaturated-blue);
@@ -259,18 +254,14 @@
         height: 40px;
         border-radius: var(--border-radius2);
         border-style: none;
+        color: var(--very-pale-blue);
+        font-size: 0.8rem;
+        font-weight: 700;
         cursor: pointer;
         box-shadow: 0 10px var(--very-pale-blue);
         transform: translate(0, 30px);
     }
 
-    .proceed-to-pay a {
-        color: var(--very-pale-blue);
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-weight: 700;
-
-    }
     .cancel-order {
         color: var(--desaturated-blue);
         font-weight: 800;
