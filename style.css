@@ -139,7 +139,9 @@ a {
     transform: translate(0, 50px);
   }
   footer {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -264,9 +266,9 @@ a {
     transform: translate(0, 50px);
   }
   footer {
-    margin: 0 auto;
-    width: 25ch;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 /* hover effect */
