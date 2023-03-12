@@ -267,7 +267,7 @@ a {
   }
   footer {
     display: flex;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     width: 30ch;
   }
